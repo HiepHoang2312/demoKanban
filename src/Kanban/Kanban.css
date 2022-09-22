@@ -1,0 +1,41 @@
+.bodyKanban {
+  padding-bottom: 2rem;
+}
+.kanban-row {
+  background: #ebecf0;
+}
+.pink {
+  background: #ffbdae;
+}
+.yellow {
+  background: #ffea79;
+}
+.violet {
+  background: #eabfff;
+}
+.gradiant {
+  background: linear-gradient(90deg, #92fe9d 0%, #00c9ff 100%);
+}
+.green {
+  background: #93e396;
+}
+.content {
+  color: #6d798e;
+}
+.title {
+  color: #172b4d;
+}
+.title-Kanban {
+  position: relative;
+  transition: color ease 0.3s;
+}
+.title-Kanban::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  left: 0;
+  top: 50px;
+  background: #ffffff;
+  transition: all ease 0.3s;
+}
